@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Set the entry point for the container
-CMD python ./bookstore-api.py
+CMD python ./app.py
